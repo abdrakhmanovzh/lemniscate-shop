@@ -1,3 +1,4 @@
 tailwind.config.js
 postcss.config.js
 src/shared/components/ui/*.tsx
+src/shared/components/ui/*.ts
