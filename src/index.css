@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.custom-scrollbar {
+  overflow-y: scroll;
+  max-height: 100px;
+}
+
+.custom-scrollbar {
+  scrollbar-color: #f1f1f1 #c1c1c1;
+  scrollbar-width: thin;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #f1f1f1;
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: #c1c1c1;
+}
