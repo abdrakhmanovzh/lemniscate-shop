@@ -16,7 +16,7 @@ export const UserButton = () => {
   }
 
   return (
-    <Button className="h-fit rounded-full p-2" onClick={handleUser} variant={'ghost'} asChild>
+    <Button className="h-fit rounded-full p-2" onClick={handleUser} variant={'ghost'}>
       <User size={20} />
     </Button>
   )
