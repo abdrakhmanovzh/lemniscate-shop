@@ -9,7 +9,7 @@ interface Props {
 export const Footer = ({ className }: Props) => {
   return (
     <footer className={cn('flex flex-col bg-neutral-700 px-[10%] py-10 text-white', className)}>
-      <div className="flex gap-64">
+      <div className="flex justify-between lg:justify-start lg:gap-64">
         <div className="flex flex-col gap-6">
           <h4 className="text-lg font-semibold">HELP</h4>
           <ul className="space-y-2 text-sm">

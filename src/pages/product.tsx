@@ -8,7 +8,7 @@ export const ProductPage = () => {
   const { product } = useProduct(Number(id))
 
   return (
-    <div className="grid flex-1 grid-cols-5 px-[10%]">
+    <div className="grid flex-1 grid-cols-5 gap-4 overflow-y-auto px-[5%] lg:gap-0 lg:px-[10%]">
       <ProductImage productId={Number(id)} />
 
       <ProductDetails product={product} />

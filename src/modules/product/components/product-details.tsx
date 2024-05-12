@@ -49,16 +49,18 @@ export const ProductDetails = ({ product }: Props) => {
   }
 
   return (
-    <div className="col-span-2 flex max-h-[550px] flex-col justify-between">
-      <h1 className="text-3xl font-semibold">{product.title}</h1>
+    <div className="col-span-2 flex max-h-[550px] flex-col justify-between gap-4 lg:gap-0">
+      <h1 className="text-2xl font-semibold lg:text-3xl">{product.title}</h1>
 
       <div className="flex items-center gap-2">
-        <p className="text-lg text-neutral-600">${product.price}</p>
-        <div className="bg-neutral-200 px-2 py-1 text-sm font-medium italic">free shipping</div>
+        <p className="text-neutral-600 lg:text-lg">${product.price}</p>
+        <div className="bg-neutral-200 px-2 py-1 text-xs font-medium italic lg:text-sm">
+          free shipping
+        </div>
       </div>
 
       <div className="">
-        <p className="text-lg text-neutral-600">{product.description}</p>
+        <p className="text-sm text-neutral-600 lg:text-lg">{product.description}</p>
       </div>
 
       <SelectColor setSelected={setSelectedColor} selected={selectedColor} />

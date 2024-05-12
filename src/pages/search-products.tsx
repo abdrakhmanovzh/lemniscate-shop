@@ -17,7 +17,7 @@ export const SearchProducts = ({ searchQuery }: Props) => {
   }, [products?.documents, searchQuery])
 
   return (
-    <div className="grid w-full grid-cols-3 gap-10">
+    <div className="lg:grid-colsgrid-cols-3 grid w-full gap-10">
       {filtered?.map((product) => (
         <div className="grid" key={product.id}>
           <ProductCard product={product} />

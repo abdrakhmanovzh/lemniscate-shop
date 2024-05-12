@@ -13,7 +13,7 @@ export const Hero = () => {
         </p>
       </div>
 
-      <div className="absolute bottom-20 left-1/2 -translate-x-[45%] space-x-8">
+      <div className="absolute bottom-20 flex w-4/5 justify-center gap-8">
         <Button
           className="rounded-none p-6 font-semibold hover:bg-neutral-800 hover:text-white"
           variant={'secondary'}

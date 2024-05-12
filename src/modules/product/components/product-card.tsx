@@ -8,7 +8,7 @@ interface Props {
 
 export const ProductCard = ({ product }: Props) => {
   return (
-    <div className="flex h-96 w-full flex-col p-4 ring-2 ring-black lg:w-80">
+    <div className="mx-auto flex h-96 w-96 flex-col p-4 ring-2 ring-black lg:w-80">
       <Link to={`/product/${product.id}`}>
         <>
           <div className="relative box-border h-72 w-72">
